@@ -94,12 +94,12 @@ public class BoardController {
 			uploadDir.mkdirs();
 		}
 		
-//		try {
-//			createDirectoryWithPermissions(UPLOAD_DIR);
-//		} catch(IOException e) {
-//			e.printStackTrace();
-//			return "error";
-//		}
+		try {
+			createDirectoryWithPermissions(UPLOAD_DIR);
+		} catch(IOException e) {
+			e.printStackTrace();
+			return "error";
+		}
 		
 		if(file != null && !file.isEmpty()) {
 			try {
