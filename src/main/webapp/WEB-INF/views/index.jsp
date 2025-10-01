@@ -9,6 +9,6 @@
 <body>
 	<h2>Hello World!!~~</h2>
 	<a href="${path}/board/boardfile">게시판</a>
-	<p>20251001</p>
+	<h2>abcd20251001</>h2
 </body>
 </html>
